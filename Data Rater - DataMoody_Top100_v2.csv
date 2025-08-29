@@ -1,0 +1,101 @@
+Source,Use Case,Rating,Risk Summary,AI Suitability
+Experian,"Credit, identity verification",AAA,"Highly regulated, explicit consent, strong governance",Excellent for financial and identity-based AI models
+LinkedIn,"Professional identity, job data",AA,"Owned by Microsoft, public profiles allowed for scraping historically, but legal boundaries shifting",Use with caution; API preferable to scraping
+Clearbit,"B2B enrichment, firmographics",AA-,"Commercial intent, data broker origin, GDPR compliance claims but little transparency","Reasonable, but monitor legality and source claims"
+World Bank,Economic and development data,AAA,"Open government dataset, well-structured and clean",Ideal for training economic and geographic models
+OECD,"Global policy, macroeconomic data",AAA,Transparent and structured datasets for research and public policy,Strong fit for academic and public sector ML models
+Google Trends,Search behaviour analytics,AA,"Aggregated, anonymized, and public-facing with fair-use terms","Suitable for trend detection, behavioural AI"
+Crunchbase,Startup and company insights,AA-,"Freemium data, partially crowdsourced, API preferred",Good for B2B and investor datasets with caveats
+GitHub Public Datasets,"Code repos, software trends",AAA,Open-source and well-governed with licensing metadata,High-quality for training on developer patterns
+Stack Overflow (via API),Developer Q&A and trends,AA,"Community-owned, fair-use under Creative Commons",Helpful for tech NLP but requires bias filtering
+Yelp (licensed),Local business reviews,AA-,Licensed access only; scraping violates TOS,Bias potential but usable with appropriate filters
+Common Crawl,Web-scale scraped text,BBB,"Large-scale scraping, unclear site-level consent, potential bias","Fine-tuning okay, not ideal for sensitive domains"
+Reddit,"User discussion, opinion mining",BB,"Open content, but recent API changes + copyright tension","Good for sentiment, but heavy on bias and ethics flags"
+Twitter (X),"Public discourse, trends",BB-,"API access restricted, scraping restricted, moderation inconsistent",Declining quality; legacy datasets aged and risky
+Amazon Reviews,"Product sentiment, feedback",B+,Public data but TOS violation if scraped; major bias + spam risk,Use for non-critical applications only
+Wikipedia,General knowledge base,BBB,Open license but factual accuracy and bias concerns,"Good for retrieval, but not always source-of-truth"
+Kaggle Datasets,ML benchmark data,BBB,"Wide range of quality, mostly licensed well","Ideal for prototyping, not always enterprise-grade"
+Indeed Scraped,Job listings data,BB,"Scraping violates TOS, bias in job title representation",Usable if licensed; risky otherwise
+Zillow,Real estate pricing data,BBB,"Partial open access, unclear API terms in some regions",Useful in housing models; US-heavy bias
+IMDb,Movie metadata,BB,"Public facing but scraping discouraged, limited API",Good for research; legal status murky
+Quora,User Q&A,B,"Unstructured, sometimes unreliable; unclear scraping rules",Not recommended without licensing
+HaveIBeenPwned,Security breach data,C,"Sensitive personal data, clear ethical boundary",Do not use for model training; analysis only under strict conditions
+TikTok (scraped),"Trends, culture, video metadata",D,Legal exposure + geopolitical risk; scraping is TOS-violating,Not safe for commercial AI use
+Facebook (scraped),"Social graph, interest data",D,"Historic scandal source (Cambridge Analytica), data misuse risk",Avoid — legacy datasets are radioactive
+Instagram (scraped),Lifestyle and visual trends,D,High copyright risk; scraping violates terms,Not suitable for commercial AI
+YouTube Comments (scraped),"Video sentiment, user feedback",C,"Public but biased, low consent model",Toxicity risk; requires heavy filtering
+4chan,Anonymous message board data,D,"High bias, extremism, and ethical risk",Unsafe for training; red flag for trust systems
+Telegram Public Chats,Real-time group sentiment,D,"Encrypted platform, scraping = clear violation",Use only for threat analysis with care
+Parler,Right-wing social content,C,Polarised content; legal and ethical volatility,Unreliable training source
+Gab,Alt-tech social media,D,"Extremist content, zero moderation",Avoid at all costs
+Weibo (scraped),Chinese social media,C,Geopolitical complexity + scraping risk,Use only for region-specific models with caution
+Dataset 31,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 32,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 33,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 34,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 35,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 36,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 37,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 38,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 39,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 40,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 41,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 42,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 43,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 44,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 45,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 46,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 47,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 48,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 49,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 50,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 51,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 52,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 53,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 54,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 55,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 56,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 57,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 58,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 59,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 60,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 61,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 62,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 63,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 64,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 65,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 66,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 67,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 68,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 69,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 70,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 71,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 72,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 73,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 74,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 75,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 76,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 77,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 78,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 79,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 80,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 81,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 82,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 83,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 84,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 85,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 86,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 87,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 88,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 89,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 90,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 91,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 92,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 93,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 94,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 95,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 96,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 97,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 98,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 99,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
+Dataset 100,Various use cases,B,Placeholder entry – to be rated and verified,Needs review
